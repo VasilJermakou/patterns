@@ -1,0 +1,41 @@
+
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.ApplicationRunner main
+INFO: Starting operations ...
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository registerNew
+INFO: RegisterNew() for insert in context. John Dou
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository registerModified
+INFO: registerModified() for modify in context. John Dou
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commit
+INFO: Commit started ...
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commitInsert
+INFO: Saving to database John Dou
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commitModify
+INFO: Modifying to database John Dou
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commit
+INFO: Commit finished!
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository registerNew
+INFO: RegisterNew() for insert in context. Vasil Ermakov
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository registerNew
+INFO: RegisterNew() for insert in context. Maria Ermakova
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository registerNew
+INFO: RegisterNew() for insert in context. Emily Ermakova
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository registerDelete
+INFO: registerDelete() for delete in context. John Dou
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commit
+INFO: Commit started ...
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commitInsert
+INFO: Saving to database Emily Ermakova
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commitInsert
+INFO: Saving to database John Dou
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commitInsert
+INFO: Saving to database Maria Ermakova
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commitInsert
+INFO: Saving to database Vasil Ermakov
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commitModify
+INFO: Modifying to database John Dou
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commitDelete
+INFO: Deleting to database John Dou
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.StudentRepository commit
+INFO: Commit finished!
+июл 11, 2021 11:37:46 AM otherpatterns.unitofwork.ApplicationRunner main
+INFO: Finished operations successful
